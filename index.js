@@ -23,18 +23,23 @@ let learningRate = 0.3;
 
 // Treinar a rede
 for (let i = 0; i < 20000; i++) {
+
   // 0 xor 0 => 0
   myNetwork.activate([0, 0]);
   myNetwork.propagate(learningRate, [0]);
+
   // 0 xor 1 => 1
   myNetwork.activate([0, 1]);
   myNetwork.propagate(learningRate, [1]);
+
   // 1 xor 0 => 1
   myNetwork.activate([1, 0]);
   myNetwork.propagate(learningRate, [1]);
+
   // 1 xor 1 => 0
   myNetwork.activate([1, 1]);
   myNetwork.propagate(learningRate, [0]);
+  
 }
 
 console.log("============================= Início =============================");
