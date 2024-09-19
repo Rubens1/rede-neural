@@ -18,7 +18,7 @@ const responseMap = {
   ],
   "status": [
     "Estou bem, obrigado por perguntar!",
-    "Vai indo bem, e você?",
+    "Vou indo bem, e você?",
     "Tudo ótimo por aqui! E você?"
   ],
   "general": [
