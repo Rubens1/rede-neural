@@ -24,12 +24,14 @@ const responseMap = {
   "general": [
     "Estou aqui, pronto para ajudar!",
     "O que posso fazer por você?",
-    "Vamos lá, como posso te ajudar?"
+    "Vamos lá, como posso te ajudar?",
+    "Em que posso ajudar?"
   ],
   "farewell": [
     "Até logo! Foi um prazer falar com você!",
     "Tchau! Volte sempre que precisar!",
-    "Até mais! Tenha um ótimo dia!"
+    "Até mais! Tenha um ótimo dia!",
+    "Tchau, obrigado pela conversa"
   ]
 };
 
