@@ -20,6 +20,7 @@ const responseMap = {
     "Estou bem, obrigado por perguntar!",
     "Vou indo bem, e você?",
     "Tudo ótimo por aqui! E você?"
+    "Tudo ótimo por aqui :D"
   ],
   "general": [
     "Estou aqui, pronto para ajudar!",
